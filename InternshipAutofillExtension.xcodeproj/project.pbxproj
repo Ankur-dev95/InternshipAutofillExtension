@@ -53,6 +53,7 @@
 		AA79F0EA2ED5525200D93003 /* InternshipAutofillExtensionTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = InternshipAutofillExtensionTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		AA79F0F42ED5525200D93003 /* InternshipAutofillExtensionUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = InternshipAutofillExtensionUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		AA79F1002ED5525200D93003 /* InternshipAutofillExtension Extension.appex */ = {isa = PBXFileReference; explicitFileType = "wrapper.app-extension"; includeInIndex = 0; path = "InternshipAutofillExtension Extension.appex"; sourceTree = BUILT_PRODUCTS_DIR; };
+		AA79F12B2ED55E6F00D93003 /* InternshipAutofillExtension.xcodeproj */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.pb-project"; path = InternshipAutofillExtension.xcodeproj; sourceTree = SOURCE_ROOT; };
 /* End PBXFileReference section */
 
 /* Begin PBXFileSystemSynchronizedBuildFileExceptionSet section */
@@ -140,6 +141,7 @@
 		AA79F0C42ED5525000D93003 = {
 			isa = PBXGroup;
 			children = (
+				AA79F12B2ED55E6F00D93003 /* InternshipAutofillExtension.xcodeproj */,
 				AA79F0CF2ED5525000D93003 /* InternshipAutofillExtension */,
 				AA79F0ED2ED5525200D93003 /* InternshipAutofillExtensionTests */,
 				AA79F0F72ED5525200D93003 /* InternshipAutofillExtensionUITests */,
@@ -156,6 +158,11 @@
 				AA79F0F42ED5525200D93003 /* InternshipAutofillExtensionUITests.xctest */,
 				AA79F1002ED5525200D93003 /* InternshipAutofillExtension Extension.appex */,
 			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		AA79F1612ED6380A00D93003 /* Products */ = {
+			isa = PBXGroup;
 			name = Products;
 			sourceTree = "<group>";
 		};
@@ -292,6 +299,12 @@
 			preferredProjectObjectVersion = 77;
 			productRefGroup = AA79F0CE2ED5525000D93003 /* Products */;
 			projectDirPath = "";
+			projectReferences = (
+				{
+					ProductGroup = AA79F1612ED6380A00D93003 /* Products */;
+					ProjectRef = AA79F12B2ED55E6F00D93003 /* InternshipAutofillExtension.xcodeproj */;
+				},
+			);
 			projectRoot = "";
 			targets = (
 				AA79F0CC2ED5525000D93003 /* InternshipAutofillExtension */,
