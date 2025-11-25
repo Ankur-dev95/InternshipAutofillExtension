@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Workday Autofill</title>
+    <link rel="stylesheet" href="popup.css">
+</head>
+<body>
+    <div class="container">
+        <header>
+            <h1>Workday Autofill</h1>
+        </header>
+        
+        <main>
+            <div class="profile-section">
+                <h2>Active Profile</h2>
+                <div id="profileInfo">
+                    <p id="profileName">No profile selected</p>
+                    <button id="selectProfileBtn" class="btn btn-primary">Select Profile</button>
+                </div>
+            </div>
+            
+            <div class="actions">
+                <button id="autofillBtn" class="btn btn-success">
+                    Autofill Current Page
+                </button>
+                
+                <button id="openAppBtn" class="btn btn-secondary">
+                    Open App Settings
+                </button>
+            </div>
+            
+            <div class="info">
+                <p class="help-text">
+                    Click "Autofill" when you're on a Workday job application page, 
+                    or use the keyboard shortcut <kbd>⌘</kbd> + <kbd>Shift</kbd> + <kbd>A</kbd>
+                </p>
+            </div>
+            
+            <div id="status" class="status hidden"></div>
+        </main>
+        
+        <footer>
+            <p class="version">Version 1.0</p>
+        </footer>
+    </div>
+    
+    <script src="popup.js"></script>
+</body>
+</html>

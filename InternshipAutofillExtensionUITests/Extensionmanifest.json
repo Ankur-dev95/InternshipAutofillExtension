@@ -1,0 +1,72 @@
+{
+    "manifest_version": 3,
+    "name": "Workday Job Autofill",
+    "version": "1.0",
+    "description": "Automatically fill Workday job application forms with your saved information",
+    
+    "icons": {
+        "16": "images/icon-16.png",
+        "32": "images/icon-32.png",
+        "48": "images/icon-48.png",
+        "96": "images/icon-96.png",
+        "128": "images/icon-128.png"
+    },
+    
+    "background": {
+        "scripts": ["background.js"],
+        "type": "module",
+        "persistent": false
+    },
+    
+    "content_scripts": [
+        {
+            "matches": [
+                "*://*.workday.com/*",
+                "*://*.myworkday.com/*",
+                "*://*/*workday*/*"
+            ],
+            "js": ["content.js"],
+            "run_at": "document_idle",
+            "all_frames": false
+        }
+    ],
+    
+    "action": {
+        "default_popup": "popup.html",
+        "default_icon": {
+            "16": "images/icon-16.png",
+            "32": "images/icon-32.png",
+            "48": "images/icon-48.png",
+            "96": "images/icon-96.png",
+            "128": "images/icon-128.png"
+        },
+        "default_title": "Workday Autofill"
+    },
+    
+    "permissions": [
+        "activeTab",
+        "storage",
+        "nativeMessaging"
+    ],
+    
+    "host_permissions": [
+        "*://*.workday.com/*",
+        "*://*.myworkday.com/*"
+    ],
+    
+    "commands": {
+        "autofill": {
+            "suggested_key": {
+                "default": "Ctrl+Shift+A",
+                "mac": "Command+Shift+A"
+            },
+            "description": "Autofill current Workday form"
+        }
+    },
+    
+    "browser_specific_settings": {
+        "gecko": {
+            "id": "workday-autofill@example.com"
+        }
+    }
+}
