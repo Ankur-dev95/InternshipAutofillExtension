@@ -8,6 +8,33 @@
 
 /* Begin PBXBuildFile section */
 		AA79F1012ED5525200D93003 /* InternshipAutofillExtension Extension.appex in Embed Foundation Extensions */ = {isa = PBXBuildFile; fileRef = AA79F1002ED5525200D93003 /* InternshipAutofillExtension Extension.appex */; settings = {ATTRIBUTES = (RemoveHeadersOnCopy, ); }; };
+		AA79F20C2ED6580900D93003 /* SafariWebExtensionHandler.swift in Sources */ = {isa = PBXBuildFile; fileRef = AA79F20B2ED6580900D93003 /* SafariWebExtensionHandler.swift */; };
+		AA79F20E2ED6580900D93003 /* background.js in Resources */ = {isa = PBXBuildFile; fileRef = AA79F2032ED6580900D93003 /* background.js */; };
+		AA79F20F2ED6580900D93003 /* content.js in Resources */ = {isa = PBXBuildFile; fileRef = AA79F2042ED6580900D93003 /* content.js */; };
+		AA79F2162ED65CED00D93003 /* ModelsApplicantProfile.swift in Sources */ = {isa = PBXBuildFile; fileRef = AA79F2152ED65CED00D93003 /* ModelsApplicantProfile.swift */; };
+		AA79F2182ED65CF600D93003 /* ModelsWorkExperience.swift in Sources */ = {isa = PBXBuildFile; fileRef = AA79F2172ED65CF600D93003 /* ModelsWorkExperience.swift */; };
+		AA79F21A2ED65CFF00D93003 /* ModelsEducation.swift in Sources */ = {isa = PBXBuildFile; fileRef = AA79F2192ED65CFF00D93003 /* ModelsEducation.swift */; };
+		AA79F21C2ED65D0E00D93003 /* ServicesProfileStorageService.swift in Sources */ = {isa = PBXBuildFile; fileRef = AA79F21B2ED65D0E00D93003 /* ServicesProfileStorageService.swift */; };
+		AA79F21E2ED65D4E00D93003 /* Extensionpopup.html in Resources */ = {isa = PBXBuildFile; fileRef = AA79F21D2ED65D4E00D93003 /* Extensionpopup.html */; };
+		AA79F2202ED65D5D00D93003 /* Extensionpopup.css in Resources */ = {isa = PBXBuildFile; fileRef = AA79F21F2ED65D5D00D93003 /* Extensionpopup.css */; };
+		AA79F2222ED65D6B00D93003 /* Extensionpopup.js in Resources */ = {isa = PBXBuildFile; fileRef = AA79F2212ED65D6B00D93003 /* Extensionpopup.js */; };
+		AA79F2242ED65D7600D93003 /* Extensionmanifest.json in Resources */ = {isa = PBXBuildFile; fileRef = AA79F2232ED65D7600D93003 /* Extensionmanifest.json */; };
+		AA79F2262ED65D8600D93003 /* ViewsProfileListView.swift in Sources */ = {isa = PBXBuildFile; fileRef = AA79F2252ED65D8600D93003 /* ViewsProfileListView.swift */; };
+		AA79F2282ED65DA300D93003 /* ViewsProfileEditorView.swift in Sources */ = {isa = PBXBuildFile; fileRef = AA79F2272ED65DA300D93003 /* ViewsProfileEditorView.swift */; };
+		AA79F22C2ED65DE200D93003 /* ViewsContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = AA79F22B2ED65DE200D93003 /* ViewsContentView.swift */; };
+		AA79F2302ED65E3700D93003 /* Extensionworkday-field-mapper.js in Resources */ = {isa = PBXBuildFile; fileRef = AA79F22F2ED65E3700D93003 /* Extensionworkday-field-mapper.js */; };
+		AA79F2482ED670FD00D93003 /* ModelsApplicantProfile.swift in Sources */ = {isa = PBXBuildFile; fileRef = AA79F2152ED65CED00D93003 /* ModelsApplicantProfile.swift */; };
+		AA79F2492ED670FD00D93003 /* ModelsApplicantProfile.swift in Sources */ = {isa = PBXBuildFile; fileRef = AA79F2152ED65CED00D93003 /* ModelsApplicantProfile.swift */; };
+		AA79F24A2ED670FD00D93003 /* ModelsApplicantProfile.swift in Sources */ = {isa = PBXBuildFile; fileRef = AA79F2152ED65CED00D93003 /* ModelsApplicantProfile.swift */; };
+		AA79F24B2ED671A200D93003 /* ModelsWorkExperience.swift in Sources */ = {isa = PBXBuildFile; fileRef = AA79F2172ED65CF600D93003 /* ModelsWorkExperience.swift */; };
+		AA79F24C2ED671A200D93003 /* ModelsWorkExperience.swift in Sources */ = {isa = PBXBuildFile; fileRef = AA79F2172ED65CF600D93003 /* ModelsWorkExperience.swift */; };
+		AA79F24D2ED671A200D93003 /* ModelsWorkExperience.swift in Sources */ = {isa = PBXBuildFile; fileRef = AA79F2172ED65CF600D93003 /* ModelsWorkExperience.swift */; };
+		AA79F24E2ED671AE00D93003 /* ModelsEducation.swift in Sources */ = {isa = PBXBuildFile; fileRef = AA79F2192ED65CFF00D93003 /* ModelsEducation.swift */; };
+		AA79F24F2ED671AE00D93003 /* ModelsEducation.swift in Sources */ = {isa = PBXBuildFile; fileRef = AA79F2192ED65CFF00D93003 /* ModelsEducation.swift */; };
+		AA79F2502ED671AE00D93003 /* ModelsEducation.swift in Sources */ = {isa = PBXBuildFile; fileRef = AA79F2192ED65CFF00D93003 /* ModelsEducation.swift */; };
+		AA79F2512ED671BD00D93003 /* ServicesProfileStorageService.swift in Sources */ = {isa = PBXBuildFile; fileRef = AA79F21B2ED65D0E00D93003 /* ServicesProfileStorageService.swift */; };
+		AA79F2522ED671BD00D93003 /* ServicesProfileStorageService.swift in Sources */ = {isa = PBXBuildFile; fileRef = AA79F21B2ED65D0E00D93003 /* ServicesProfileStorageService.swift */; };
+		AA79F2532ED671BD00D93003 /* ServicesProfileStorageService.swift in Sources */ = {isa = PBXBuildFile; fileRef = AA79F21B2ED65D0E00D93003 /* ServicesProfileStorageService.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -54,6 +81,21 @@
 		AA79F0F42ED5525200D93003 /* InternshipAutofillExtensionUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = InternshipAutofillExtensionUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		AA79F1002ED5525200D93003 /* InternshipAutofillExtension Extension.appex */ = {isa = PBXFileReference; explicitFileType = "wrapper.app-extension"; includeInIndex = 0; path = "InternshipAutofillExtension Extension.appex"; sourceTree = BUILT_PRODUCTS_DIR; };
 		AA79F12B2ED55E6F00D93003 /* InternshipAutofillExtension.xcodeproj */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.pb-project"; path = InternshipAutofillExtension.xcodeproj; sourceTree = SOURCE_ROOT; };
+		AA79F2032ED6580900D93003 /* background.js */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.javascript; path = background.js; sourceTree = "<group>"; };
+		AA79F2042ED6580900D93003 /* content.js */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.javascript; path = content.js; sourceTree = "<group>"; };
+		AA79F20B2ED6580900D93003 /* SafariWebExtensionHandler.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SafariWebExtensionHandler.swift; sourceTree = "<group>"; };
+		AA79F2152ED65CED00D93003 /* ModelsApplicantProfile.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ModelsApplicantProfile.swift; sourceTree = "<group>"; };
+		AA79F2172ED65CF600D93003 /* ModelsWorkExperience.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ModelsWorkExperience.swift; sourceTree = "<group>"; };
+		AA79F2192ED65CFF00D93003 /* ModelsEducation.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ModelsEducation.swift; sourceTree = "<group>"; };
+		AA79F21B2ED65D0E00D93003 /* ServicesProfileStorageService.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ServicesProfileStorageService.swift; sourceTree = "<group>"; };
+		AA79F21D2ED65D4E00D93003 /* Extensionpopup.html */ = {isa = PBXFileReference; lastKnownFileType = text.html; path = Extensionpopup.html; sourceTree = "<group>"; };
+		AA79F21F2ED65D5D00D93003 /* Extensionpopup.css */ = {isa = PBXFileReference; lastKnownFileType = text.css; path = Extensionpopup.css; sourceTree = "<group>"; };
+		AA79F2212ED65D6B00D93003 /* Extensionpopup.js */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.javascript; path = Extensionpopup.js; sourceTree = "<group>"; };
+		AA79F2232ED65D7600D93003 /* Extensionmanifest.json */ = {isa = PBXFileReference; lastKnownFileType = text.json; path = Extensionmanifest.json; sourceTree = "<group>"; };
+		AA79F2252ED65D8600D93003 /* ViewsProfileListView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewsProfileListView.swift; sourceTree = "<group>"; };
+		AA79F2272ED65DA300D93003 /* ViewsProfileEditorView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewsProfileEditorView.swift; sourceTree = "<group>"; };
+		AA79F22B2ED65DE200D93003 /* ViewsContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewsContentView.swift; sourceTree = "<group>"; };
+		AA79F22F2ED65E3700D93003 /* Extensionworkday-field-mapper.js */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.javascript; path = "Extensionworkday-field-mapper.js"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFileSystemSynchronizedBuildFileExceptionSet section */
@@ -131,6 +173,11 @@
 		AA79F0C42ED5525000D93003 = {
 			isa = PBXGroup;
 			children = (
+				AA79F2452ED6694600D93003 /* New Group 4 */,
+				AA79F2442ED6694100D93003 /* extensions */,
+				AA79F2432ED6693D00D93003 /* views */,
+				AA79F2422ED6693800D93003 /* services */,
+				AA79F2412ED6688900D93003 /* Models */,
 				AA79F12B2ED55E6F00D93003 /* InternshipAutofillExtension.xcodeproj */,
 				AA79F0CF2ED5525000D93003 /* InternshipAutofillExtension */,
 				AA79F0ED2ED5525200D93003 /* InternshipAutofillExtensionTests */,
@@ -154,6 +201,56 @@
 		AA79F1612ED6380A00D93003 /* Products */ = {
 			isa = PBXGroup;
 			name = Products;
+			sourceTree = "<group>";
+		};
+		AA79F2412ED6688900D93003 /* Models */ = {
+			isa = PBXGroup;
+			children = (
+				AA79F2152ED65CED00D93003 /* ModelsApplicantProfile.swift */,
+				AA79F2192ED65CFF00D93003 /* ModelsEducation.swift */,
+				AA79F2172ED65CF600D93003 /* ModelsWorkExperience.swift */,
+			);
+			path = Models;
+			sourceTree = "<group>";
+		};
+		AA79F2422ED6693800D93003 /* services */ = {
+			isa = PBXGroup;
+			children = (
+				AA79F21B2ED65D0E00D93003 /* ServicesProfileStorageService.swift */,
+			);
+			path = services;
+			sourceTree = "<group>";
+		};
+		AA79F2432ED6693D00D93003 /* views */ = {
+			isa = PBXGroup;
+			children = (
+				AA79F22B2ED65DE200D93003 /* ViewsContentView.swift */,
+				AA79F2272ED65DA300D93003 /* ViewsProfileEditorView.swift */,
+				AA79F2252ED65D8600D93003 /* ViewsProfileListView.swift */,
+			);
+			path = views;
+			sourceTree = "<group>";
+		};
+		AA79F2442ED6694100D93003 /* extensions */ = {
+			isa = PBXGroup;
+			children = (
+				AA79F22F2ED65E3700D93003 /* Extensionworkday-field-mapper.js */,
+				AA79F20B2ED6580900D93003 /* SafariWebExtensionHandler.swift */,
+				AA79F2032ED6580900D93003 /* background.js */,
+				AA79F2042ED6580900D93003 /* content.js */,
+				AA79F2232ED65D7600D93003 /* Extensionmanifest.json */,
+				AA79F2212ED65D6B00D93003 /* Extensionpopup.js */,
+				AA79F21F2ED65D5D00D93003 /* Extensionpopup.css */,
+				AA79F21D2ED65D4E00D93003 /* Extensionpopup.html */,
+			);
+			path = extensions;
+			sourceTree = "<group>";
+		};
+		AA79F2452ED6694600D93003 /* New Group 4 */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = "New Group 4";
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -324,6 +421,11 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				AA79F2202ED65D5D00D93003 /* Extensionpopup.css in Resources */,
+				AA79F2222ED65D6B00D93003 /* Extensionpopup.js in Resources */,
+				AA79F2242ED65D7600D93003 /* Extensionmanifest.json in Resources */,
+				AA79F21E2ED65D4E00D93003 /* Extensionpopup.html in Resources */,
+				AA79F2302ED65E3700D93003 /* Extensionworkday-field-mapper.js in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -331,6 +433,8 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				AA79F20E2ED6580900D93003 /* background.js in Resources */,
+				AA79F20F2ED6580900D93003 /* content.js in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -341,6 +445,10 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				AA79F24B2ED671A200D93003 /* ModelsWorkExperience.swift in Sources */,
+				AA79F2512ED671BD00D93003 /* ServicesProfileStorageService.swift in Sources */,
+				AA79F24E2ED671AE00D93003 /* ModelsEducation.swift in Sources */,
+				AA79F2482ED670FD00D93003 /* ModelsApplicantProfile.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -348,6 +456,10 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				AA79F24F2ED671AE00D93003 /* ModelsEducation.swift in Sources */,
+				AA79F24C2ED671A200D93003 /* ModelsWorkExperience.swift in Sources */,
+				AA79F2492ED670FD00D93003 /* ModelsApplicantProfile.swift in Sources */,
+				AA79F2522ED671BD00D93003 /* ServicesProfileStorageService.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -355,6 +467,13 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				AA79F2282ED65DA300D93003 /* ViewsProfileEditorView.swift in Sources */,
+				AA79F21A2ED65CFF00D93003 /* ModelsEducation.swift in Sources */,
+				AA79F22C2ED65DE200D93003 /* ViewsContentView.swift in Sources */,
+				AA79F2262ED65D8600D93003 /* ViewsProfileListView.swift in Sources */,
+				AA79F2182ED65CF600D93003 /* ModelsWorkExperience.swift in Sources */,
+				AA79F21C2ED65D0E00D93003 /* ServicesProfileStorageService.swift in Sources */,
+				AA79F2162ED65CED00D93003 /* ModelsApplicantProfile.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -362,6 +481,11 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				AA79F2502ED671AE00D93003 /* ModelsEducation.swift in Sources */,
+				AA79F24D2ED671A200D93003 /* ModelsWorkExperience.swift in Sources */,
+				AA79F24A2ED670FD00D93003 /* ModelsApplicantProfile.swift in Sources */,
+				AA79F2532ED671BD00D93003 /* ServicesProfileStorageService.swift in Sources */,
+				AA79F20C2ED6580900D93003 /* SafariWebExtensionHandler.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
