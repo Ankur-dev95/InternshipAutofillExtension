@@ -64,13 +64,6 @@
 			);
 			target = AA79F0CC2ED5525000D93003 /* InternshipAutofillExtension */;
 		};
-		AA79F11E2ED5525300D93003 /* Exceptions for "InternshipAutofillExtension Extension" folder in "InternshipAutofillExtension Extension" target */ = {
-			isa = PBXFileSystemSynchronizedBuildFileExceptionSet;
-			membershipExceptions = (
-				Info.plist,
-			);
-			target = AA79F0FF2ED5525200D93003 /* InternshipAutofillExtension Extension */;
-		};
 /* End PBXFileSystemSynchronizedBuildFileExceptionSet section */
 
 /* Begin PBXFileSystemSynchronizedRootGroup section */
@@ -94,9 +87,6 @@
 		};
 		AA79F1042ED5525200D93003 /* InternshipAutofillExtension Extension */ = {
 			isa = PBXFileSystemSynchronizedRootGroup;
-			exceptions = (
-				AA79F11E2ED5525300D93003 /* Exceptions for "InternshipAutofillExtension Extension" folder in "InternshipAutofillExtension Extension" target */,
-			);
 			explicitFolders = (
 				Resources/_locales,
 				Resources/images,
